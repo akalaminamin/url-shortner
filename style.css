@@ -1,0 +1,39 @@
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.input-field{
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid rgb(9, 231, 9);
+    border-radius: 5px;
+}
+
+.btn{
+    padding: 10px 15px;
+    background:  rgb(9, 231, 9);;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.copy-text{
+    color: blue;
+    cursor: pointer;
+}
+
+.url{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}

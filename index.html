@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortner</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="wrapper">
+        <h2>Write Long URL:</h2>
+        <div>
+          <input
+            class="input-field"
+            type="url"
+            placeholder="Type Long url here"
+            id="longUrl"
+          />
+          <button class="btn" onclick="urlShortener()">Generate Short URL</button>
+        </div>
+        <div class="url">
+            <p>
+                <b>Your Short Url is:</b
+                >https://dev.to/heymich/build-a-url-shortener-with-nodejs-4pnp
+              </p>
+            <span class="copy-text">Copy</span>      
+        </div>
+      </div>
+      <div class="wrapper">
+        <h2>Write Short URL:</h2>
+        <div>
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Type Long url here"
+          />
+          <button class="btn">Retrieve Long URL</button>
+        </div>
+       <div class="url">
+        <p>
+            <b>The Orginial URL is:</b
+            >https://dev.to/heymich/build-a-url-shortener-with-nodejs-4pnp
+          </p>
+          <span class="copy-text">Copy</span>
+       </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
